@@ -1472,12 +1472,6 @@
 		(uuid "0765f0fd-921d-4311-8e40-53114eb11c59")
 	)
 	(junction
-		(at 163.83 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07722b63-96d3-4b6b-ab0c-c711d576fd5f")
-	)
-	(junction
 		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1883,6 +1877,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 114.3) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e243977-38d3-466a-b6a3-1e6c8cb07e68")
+	)
+	(wire
+		(pts
 			(xy 93.98 82.55) (xy 114.3 82.55)
 		)
 		(stroke
@@ -1970,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "9a97f84b-75f3-4ca4-b354-96fb31e944ad")
-	)
-	(wire
-		(pts
-			(xy 163.83 111.76) (xy 163.83 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c19ba69-2724-4ab8-8dbb-c59a152aab37")
 	)
 	(wire
 		(pts
@@ -2263,16 +2257,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 119.38) (xy 163.83 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f947c2af-524f-4a10-a8f3-48326bbbc2ca")
-	)
-	(wire
-		(pts
 			(xy 91.44 27.94) (xy 76.2 27.94)
 		)
 		(stroke
@@ -2320,6 +2304,16 @@
 			(justify right bottom)
 		)
 		(uuid "96df86d9-9ad3-4721-8b04-2f698e5ac817")
+	)
+	(label "Vbias"
+		(at 163.83 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7814e61-2d75-4902-96ff-91cb6036d172")
 	)
 	(label "Vbias"
 		(at 133.35 34.29 0)
