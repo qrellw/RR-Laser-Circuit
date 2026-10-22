@@ -429,7 +429,7 @@
         "uuid": "29467ab3-c1bf-4fb3-96d7-e47c1d2d2674"
       }
     ],
-    "used_designators": "#FLG1-4,R1-19,J1-3,L1,D1-6,#PWR1-6,C1-23,U1-8,Q1,laser1,analog1-2",
+    "used_designators": "#FLG1-5,R1-19,J1-3,L1,D1-6,#PWR1-6,C1-23,U1-8,Q1,laser1,analog1-2,BatteryJunction1",
     "variants": []
   },
   "sheets": [

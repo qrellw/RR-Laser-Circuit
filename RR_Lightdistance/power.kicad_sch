@@ -2025,6 +2025,12 @@
 		(uuid "8435aeca-80f3-4408-b992-61d4ba61153e")
 	)
 	(junction
+		(at 64.77 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a56b735-c8b7-4ec2-8453-b9d48df8aba3")
+	)
+	(junction
 		(at 132.08 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2698,6 +2704,17 @@
 			(justify right bottom)
 		)
 		(uuid "196d3984-fd11-4767-bc6f-aed80cbaf3dd")
+	)
+	(label "VBAT"
+		(at 105.41 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 72 72 0 0.9019607843)
+			)
+			(justify left bottom)
+		)
+		(uuid "32cb30ad-960b-4b54-a17f-8fa1a0fefb2f")
 	)
 	(label "VBAT"
 		(at 43.18 97.79 180)
@@ -3382,6 +3399,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a046cd2-2388-4921-9b58-99e29be206ee")
+		(property "Reference" "#FLG05"
+			(at 64.77 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.928 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63c960b8-ee90-4017-b1c2-be8de663d8f4")
+		)
+		(instances
+			(project "RR_Lightdistance"
+				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/c11a3350-dad4-4be3-a97d-afb1ab124402"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 62.23 0)
 		(unit 1)
@@ -3545,84 +3639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa1902a-9118-4061-a617-88c2f5828155")
-		(property "Reference" "#FLG02"
-			(at 105.41 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 105.41 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5e69e25-efa2-4420-aed8-8456c8a7cfff")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/c11a3350-dad4-4be3-a97d-afb1ab124402"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 69.85 146.05 0)
 		(unit 1)
@@ -3715,7 +3731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d06eefb-0157-47f0-9cf2-53ff1220a168")
-		(property "Reference" "BatteryJunction"
+		(property "Reference" "BatteryJunction1"
 			(at 153.67 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3795,7 @@
 		(instances
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/c11a3350-dad4-4be3-a97d-afb1ab124402"
-					(reference "BatteryJunction")
+					(reference "BatteryJunction1")
 					(unit 1)
 				)
 			)
