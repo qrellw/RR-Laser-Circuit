@@ -50,9 +50,7 @@ Mức nền thực tế (Vbias) được đọc từ `AIN2` giúp bù trừ sai 
     *(Việc trừ mẫu sáng cho mẫu tối giúp triệt tiêu hoàn toàn mức nền Vbias và ánh sáng môi trường).*
 
 2.  **Tính tỉ số vị trí (Position Ratio - r):**
-    $$
-    r = \frac{I_a - k \cdot I_b}{I_a + k \cdot I_b}
-    $$
+    $r = \frac{I_a - k \cdot I_b}{I_a + k \cdot I_b}$
     *   *Trong đó:* `k` là hệ số bù sai lệch giữa hai kênh (được xác định thực nghiệm). Giá trị `r` dao động từ -1 đến 1, phản ánh chính xác vị trí dịch chuyển của tia Laser.
 ## 5. Quản lý Năng lượng và Cảnh báo Phần cứng
 *   **Nguồn cấp:** Pin Lithium-Ion 3.7V (có mạch bảo vệ PCM).
