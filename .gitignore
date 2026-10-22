@@ -3,4 +3,9 @@
 *.lck
 *.prl
 *.bak
+*.prl
 fp-info-cache
+.history/
+receiver/
+*.lck
+*.prl
