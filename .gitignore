@@ -1,1 +1,6 @@
 "receiver/.history/" 
+.history/
+*.lck
+*.prl
+*.bak
+fp-info-cache
