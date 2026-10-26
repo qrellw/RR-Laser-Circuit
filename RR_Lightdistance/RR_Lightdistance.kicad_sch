@@ -12,12 +12,6 @@
 		(uuid "4dc34139-5ec1-495d-ae4a-3a0643a5f849")
 	)
 	(junction
-		(at 71.12 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aebae5e6-d6b1-4416-9fc8-23ce807b6e8d")
-	)
-	(junction
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -142,16 +136,6 @@
 			(type default)
 		)
 		(uuid "84e6edd6-928c-4559-9d0b-713a8690c130")
-	)
-	(wire
-		(pts
-			(xy 62.23 100.33) (xy 71.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d30b62-2350-40f7-ad26-7d67b185d29c")
 	)
 	(wire
 		(pts
@@ -697,16 +681,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND_DIG" passive
-			(at 62.23 100.33 0)
-			(uuid "e15a9cc7-fbab-4726-a847-14bdd084b415")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "LASER_EN" input

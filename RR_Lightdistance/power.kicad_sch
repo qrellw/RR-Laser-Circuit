@@ -3092,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.942 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -3173,7 +3173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3508,7 +3508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3590,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 84.7852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3671,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3753,7 +3753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3924,7 +3924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.782 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -4109,7 +4109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.862 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -4271,7 +4271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.852 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -4352,7 +4352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.842 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -4434,7 +4434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.4052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4515,7 +4515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.3052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4595,7 +4595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -4676,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.0552 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4758,7 +4758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4840,7 +4840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.272 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +4997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 55.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5089,7 +5089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.5652 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5331,7 +5331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -5495,7 +5495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.592 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -5575,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 55.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5666,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-5050"
 			(at 142.24 48.26 0)
 			(hide yes)
 			(show_name no)
