@@ -5,7 +5,7 @@
 	(uuid "63286888-bd50-487f-a960-07d34343ff69")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP6002-xP"
+		(symbol "Amplifier_Operational:MCP6004"
 			(pin_names
 				(offset 0.127)
 			)
@@ -25,7 +25,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-xP"
+			(property "Value" "MCP6004"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -37,7 +37,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -48,7 +48,7 @@
 				)
 			)
 			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-				(at 0 0 0)
+				(at 1.27 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
+			(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_1_1"
+			(symbol "MCP6004_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_2_1"
+			(symbol "MCP6004_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -237,11 +237,147 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_3_1"
+			(symbol "MCP6004_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6004_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at -2.54 7.62 270)
 					(length 3.81)
-					(name "V-"
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -257,16 +393,16 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 7.62 270)
+					(at -2.54 -7.62 90)
 					(length 3.81)
-					(name "V+"
+					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1587,22 +1723,16 @@
 		(uuid "0765f0fd-921d-4311-8e40-53114eb11c59")
 	)
 	(junction
-		(at 129.54 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b960ec5-1b6e-43a4-8434-f3c22f4af27f")
-	)
-	(junction
 		(at 77.47 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f0f2906-74a3-41f8-8326-9c1cc68c266a")
 	)
 	(junction
-		(at 95.25 127)
+		(at 93.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1dae421e-0fac-46c6-937e-c7db79f5efe5")
+		(uuid "274c9992-89a8-4e61-a30f-e25ec0c3ba78")
 	)
 	(junction
 		(at 190.5 109.22)
@@ -1623,6 +1753,12 @@
 		(uuid "4ba22dac-d549-487f-9672-1e0eff314964")
 	)
 	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d3d730a-1ce0-4d75-b17c-5b12e129b659")
+	)
+	(junction
 		(at 173.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1635,28 +1771,22 @@
 		(uuid "7202cc20-cbd0-4d6a-a80a-72ad0bce9981")
 	)
 	(junction
+		(at 76.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bcba1db-c8b5-4498-b331-e0294ca97f7b")
+	)
+	(junction
 		(at 142.24 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8293c889-772b-409d-b2c9-53f9e65d1f5e")
 	)
 	(junction
-		(at 33.02 27.94)
+		(at 95.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f05c3a0-4c2b-415c-9e81-ac8c7a46a6dd")
-	)
-	(junction
-		(at 93.98 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98a4eeea-d19d-4abb-9316-18ba847ae46a")
-	)
-	(junction
-		(at 129.54 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a19d870-f941-41c8-9036-cca2df5960df")
+		(uuid "a36bf89c-e570-488b-a608-98c1acfe4229")
 	)
 	(junction
 		(at 91.44 43.18)
@@ -1671,22 +1801,16 @@
 		(uuid "bea8b77d-2030-49a9-8ef9-c9c7577b01f0")
 	)
 	(junction
-		(at 33.02 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c74a5e4f-eb61-48c1-9c4f-f5a3816cd7f6")
-	)
-	(junction
 		(at 187.96 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d694fe3b-3d91-451e-ab46-ba393035fe9a")
 	)
 	(junction
-		(at 76.2 43.18)
+		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7088698-9e74-4c5f-b493-5aa9a5e4c06e")
+		(uuid "d9927982-d838-4c00-b813-030a35d65a53")
 	)
 	(junction
 		(at 95.25 114.3)
@@ -1788,16 +1912,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 43.18) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7fbd7b-463e-44d0-a20e-2e54871f91a2")
-	)
-	(wire
-		(pts
 			(xy 88.9 114.3) (xy 95.25 114.3)
 		)
 		(stroke
@@ -1868,16 +1982,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 41.91 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59759a98-2778-43e4-b486-36cfa374ec0d")
-	)
-	(wire
-		(pts
 			(xy 95.25 127) (xy 114.3 127)
 		)
 		(stroke
@@ -1895,16 +1999,6 @@
 			(type default)
 		)
 		(uuid "5d3985fd-c341-449f-8fb3-ac575b1a46ac")
-	)
-	(wire
-		(pts
-			(xy 33.02 31.75) (xy 33.02 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f231fd5-8f3b-447f-b08c-f6ca0a2c600c")
 	)
 	(wire
 		(pts
@@ -2108,16 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 29.21) (xy 26.67 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d34f06d-ff68-4e24-91ab-52af448ff369")
-	)
-	(wire
-		(pts
 			(xy 149.86 85.09) (xy 149.86 106.68)
 		)
 		(stroke
@@ -2155,16 +2239,6 @@
 			(type default)
 		)
 		(uuid "a587aab1-1198-4899-a0ee-29ab0e0e4238")
-	)
-	(wire
-		(pts
-			(xy 33.02 43.18) (xy 41.91 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9669f64-1ec5-4d40-ba5e-6db6f2da1f68")
 	)
 	(wire
 		(pts
@@ -2208,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 26.67 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee4e3b7-9200-418b-a4e7-7bfd94d194c0")
-	)
-	(wire
-		(pts
 			(xy 114.3 132.08) (xy 114.3 138.43)
 		)
 		(stroke
@@ -2255,16 +2319,6 @@
 			(type default)
 		)
 		(uuid "ccd537bd-42b7-461b-ba7d-c26a7a201c60")
-	)
-	(wire
-		(pts
-			(xy 26.67 27.94) (xy 33.02 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf68c66d-37b6-4dda-983e-52d015f82ffe")
 	)
 	(wire
 		(pts
@@ -2365,16 +2419,6 @@
 			(type default)
 		)
 		(uuid "f7899272-f8ce-4552-afbb-750a6b75f24b")
-	)
-	(wire
-		(pts
-			(xy 33.02 39.37) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8419e26-acb6-4216-b6f9-d9831487c484")
 	)
 	(wire
 		(pts
@@ -2556,17 +2600,6 @@
 		)
 		(uuid "8cacdf7f-6d3c-49f0-bb9c-2362c9fc1c85")
 	)
-	(hierarchical_label "3V3_ANA"
-		(shape input)
-		(at 41.91 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "923e2a9a-9227-4630-a578-3009bcbad33d")
-	)
 	(hierarchical_label "GND_ANA"
 		(shape passive)
 		(at 140.97 137.16 180)
@@ -2577,17 +2610,6 @@
 			(justify right)
 		)
 		(uuid "96ca81a5-6451-45bf-b569-f61996b9c87a")
-	)
-	(hierarchical_label "GND_ANA"
-		(shape passive)
-		(at 41.91 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b915c137-ff2f-4096-8567-390f8d3b4d44")
 	)
 	(hierarchical_label "GND_ANA"
 		(shape passive)
@@ -2737,90 +2759,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 26.67 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05a1acf9-7764-4200-a84d-06cf02d5ac29")
-		(property "Reference" "C23"
-			(at 24.638 21.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 24.638 23.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 27.6352 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 26.67 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d90640fe-499c-4bc8-b3c2-ddb162331566")
-		)
-		(pin "1"
-			(uuid "3d293df1-69df-4ffb-b805-96cdd77ebdf5")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 121.92 129.54 0)
-		(unit 2)
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 121.92 85.09 0)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2828,9 +2769,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b2be1c2-21d0-4b01-978f-b3046a336c95")
-		(property "Reference" "U2"
-			(at 121.92 119.38 0)
+		(uuid "07b5aa3f-583c-4a53-9be4-f6e5f34e035c")
+		(property "Reference" "U6"
+			(at 121.92 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2839,8 +2780,8 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
-			(at 121.92 121.92 0)
+		(property "Value" "MCP6004"
+			(at 121.92 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2849,8 +2790,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 121.92 129.54 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,7 +2802,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 121.92 129.54 0)
+			(at 123.19 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,8 +2812,8 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 121.92 129.54 0)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,35 +2823,53 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "5c48a20c-2516-4df1-ae3a-fdcb70467a23")
+		(pin "12"
+			(uuid "5a68b2c5-ddfa-4bb8-82d6-97a937905126")
+		)
+		(pin "9"
+			(uuid "44259811-8d04-48f3-b951-7482517a854c")
+		)
+		(pin "13"
+			(uuid "903cd07c-5516-4241-a5bf-29ec631d0da4")
+		)
+		(pin "10"
+			(uuid "8a45ecb5-733f-4e99-8cfd-84244aa26d6d")
+		)
+		(pin "14"
+			(uuid "6eff9733-1f64-42d2-8863-c7f2e81b1df4")
 		)
 		(pin "4"
-			(uuid "e0c762f9-b153-457c-b649-0a0d2abe2beb")
+			(uuid "abb226e7-0613-4dda-add5-d14313589140")
 		)
-		(pin "8"
-			(uuid "aab83214-42b4-40b3-91fa-350206fccb8d")
-		)
-		(pin "2"
-			(uuid "6c9afb4f-86df-4d5f-acfb-4f3de3f56f3d")
-		)
-		(pin "6"
-			(uuid "b5288e99-1265-4e50-813e-20f9afaf31b6")
-		)
-		(pin "5"
-			(uuid "4a54072b-9c76-4622-af31-0dec2629352b")
+		(pin "11"
+			(uuid "6e3e4803-6a7b-4c67-b5ac-28988a4c3a85")
 		)
 		(pin "1"
-			(uuid "ad4a994e-f3b6-476e-9a5b-5c8b1cb11736")
+			(uuid "d5237b49-4b2b-4a72-86df-d4e27e658f07")
+		)
+		(pin "2"
+			(uuid "094f35ce-e6d2-4771-bf6a-fcebcbc18d09")
 		)
 		(pin "3"
-			(uuid "db072552-9e92-4bff-99d8-c95e0f4723e0")
+			(uuid "33685204-3317-4c8e-9163-a6e8b86edd5b")
+		)
+		(pin "7"
+			(uuid "462e1117-dfc4-406f-8b45-58b28b2a60ca")
+		)
+		(pin "8"
+			(uuid "b660c0ba-e171-471a-b3b0-292957a314cf")
+		)
+		(pin "6"
+			(uuid "537e6726-130b-42fc-b292-7fac0f36025e")
+		)
+		(pin "5"
+			(uuid "3b4f5e86-f4ff-40a7-bac2-609af0fe1232")
 		)
 		(instances
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U2")
-					(unit 2)
+					(reference "U6")
+					(unit 4)
 				)
 			)
 		)
@@ -3075,86 +3034,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Optical:BPW34")
-		(at 58.42 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16dec4aa-228e-40fa-98ed-394bd7b08975")
-		(property "Reference" "D1"
-			(at 66.04 84.1629 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BPW34"
-			(at 63.5 84.1629 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
-			(at 62.865 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
-			(at 58.42 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Silicon PIN Photodiode"
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e1c07ef5-3e60-4292-874c-e3fa58bac1a6")
-		)
-		(pin "1"
-			(uuid "6e49a89b-f208-4de7-8a80-cdf392359477")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 91.44 34.29 0)
 		(unit 1)
@@ -3230,104 +3109,6 @@
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 86.36 82.55 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e2e3b11-4129-48cf-a3c5-4953a48c96ef")
-		(property "Reference" "U1"
-			(at 86.36 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xP"
-			(at 86.36 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 86.36 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 86.36 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 86.36 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "dce388bd-c970-40e6-9931-82ad7341187e")
-		)
-		(pin "6"
-			(uuid "46a81310-8683-4779-8a81-7fc3caa84b43")
-		)
-		(pin "7"
-			(uuid "9ddd7cce-da2f-4477-b0c4-b5c63db5c560")
-		)
-		(pin "2"
-			(uuid "d168ce17-837f-4646-87f3-535b4e844143")
-		)
-		(pin "4"
-			(uuid "17cd6346-6796-4a5f-a9a2-4389a4a5a5ae")
-		)
-		(pin "5"
-			(uuid "10359533-ce41-4083-b70c-1a79ef7f2aa4")
-		)
-		(pin "1"
-			(uuid "e98fa3c4-fd00-442d-881a-27351660858c")
-		)
-		(pin "3"
-			(uuid "5982a9c6-0c44-4762-9bc6-a0527abcd6e5")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3580,106 +3361,6 @@
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
 					(reference "C9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 78.74 35.56 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53a0ed0d-2e84-483d-b429-2890ee5abf0d")
-		(property "Reference" "U1"
-			(at 77.47 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6002-xP"
-			(at 77.47 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 78.74 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 78.74 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 78.74 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "b0e16906-19fe-4ef1-b179-6c0330ad590b")
-		)
-		(pin "6"
-			(uuid "46a81310-8683-4779-8a81-7fc3caa84b44")
-		)
-		(pin "7"
-			(uuid "9ddd7cce-da2f-4477-b0c4-b5c63db5c561")
-		)
-		(pin "2"
-			(uuid "f1a78eff-e138-43fc-b08f-e7b6e6331c18")
-		)
-		(pin "4"
-			(uuid "9888f55d-8bd1-4a65-920e-2c297db45ff3")
-		)
-		(pin "5"
-			(uuid "10359533-ce41-4083-b70c-1a79ef7f2aa5")
-		)
-		(pin "1"
-			(uuid "94510207-4454-42c5-83a9-6b4b2755c17d")
-		)
-		(pin "3"
-			(uuid "86911ec0-0010-45aa-ab7e-17c09e28f4cb")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -4032,103 +3713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 121.92 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "746db301-8a52-4a9a-a958-4fb02c18a8df")
-		(property "Reference" "U2"
-			(at 121.92 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xP"
-			(at 121.92 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 121.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "f92e88e4-9ad4-4839-a30d-279ab2da2762")
-		)
-		(pin "4"
-			(uuid "e0c762f9-b153-457c-b649-0a0d2abe2bea")
-		)
-		(pin "8"
-			(uuid "aab83214-42b4-40b3-91fa-350206fccb8c")
-		)
-		(pin "2"
-			(uuid "17a6e867-2873-45b0-ad59-2e5d98e60eae")
-		)
-		(pin "6"
-			(uuid "b035b714-6ae6-4c24-8693-4dc112d09c3c")
-		)
-		(pin "5"
-			(uuid "b43e133f-1c1c-4059-aeac-9fda92ac5c92")
-		)
-		(pin "1"
-			(uuid "1fed72a1-369b-4644-85ee-67955beec7b0")
-		)
-		(pin "3"
-			(uuid "b28b84c6-65ad-4d4d-af9f-ca8688a9c540")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.35 85.09 90)
 		(unit 1)
@@ -4381,7 +3965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ca20ff9-e9e5-4b61-903f-791cb16c23d4")
+		(uuid "b0fc4c05-d464-4928-bcb7-9eab7d93e4fc")
 		(property "Reference" "D2"
 			(at 68.58 128.6129 0)
 			(show_name no)
@@ -4402,7 +3986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "OptoDevice:Osram_BPW34S-SMD"
 			(at 65.405 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4436,15 +4020,213 @@
 			)
 		)
 		(pin "2"
-			(uuid "c06e61a2-673b-4e3c-8941-f2a951ac0f0c")
+			(uuid "001c9d32-c60d-4dd3-8f76-b2a6779931b1")
 		)
 		(pin "1"
-			(uuid "e8cb5de6-b6f1-48ac-a934-c19db2a5a854")
+			(uuid "15b8d77f-4471-4043-a17b-c6ee902793c2")
 		)
 		(instances
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 78.74 35.56 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3e71b6e-263e-4631-9d4a-9046ef9fb31d")
+		(property "Reference" "U6"
+			(at 77.47 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 77.47 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 77.47 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 80.01 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 78.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "5a68b2c5-ddfa-4bb8-82d6-97a937905126")
+		)
+		(pin "9"
+			(uuid "44259811-8d04-48f3-b951-7482517a854c")
+		)
+		(pin "13"
+			(uuid "903cd07c-5516-4241-a5bf-29ec631d0da4")
+		)
+		(pin "10"
+			(uuid "8a45ecb5-733f-4e99-8cfd-84244aa26d6d")
+		)
+		(pin "14"
+			(uuid "6eff9733-1f64-42d2-8863-c7f2e81b1df4")
+		)
+		(pin "4"
+			(uuid "abb226e7-0613-4dda-add5-d14313589140")
+		)
+		(pin "11"
+			(uuid "6e3e4803-6a7b-4c67-b5ac-28988a4c3a85")
+		)
+		(pin "1"
+			(uuid "d5237b49-4b2b-4a72-86df-d4e27e658f07")
+		)
+		(pin "2"
+			(uuid "094f35ce-e6d2-4771-bf6a-fcebcbc18d09")
+		)
+		(pin "3"
+			(uuid "33685204-3317-4c8e-9163-a6e8b86edd5b")
+		)
+		(pin "7"
+			(uuid "462e1117-dfc4-406f-8b45-58b28b2a60ca")
+		)
+		(pin "8"
+			(uuid "b660c0ba-e171-471a-b3b0-292957a314cf")
+		)
+		(pin "6"
+			(uuid "537e6726-130b-42fc-b292-7fac0f36025e")
+		)
+		(pin "5"
+			(uuid "3b4f5e86-f4ff-40a7-bac2-609af0fe1232")
+		)
+		(instances
+			(project "RR_Lightdistance"
+				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
+					(reference "U6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:BPW34")
+		(at 58.42 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d299f7-862e-4a2e-a296-c79c3e7159dd")
+		(property "Reference" "D1"
+			(at 66.04 84.1629 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BPW34"
+			(at 63.5 84.1629 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:Osram_BPW34S-SMD"
+			(at 62.865 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Silicon PIN Photodiode"
+			(at 58.42 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3ab55f1-72ea-4c06-b11e-2d8c75ccacf6")
+		)
+		(pin "1"
+			(uuid "ba862450-c1f6-425b-9864-7d931cec288c")
+		)
+		(instances
+			(project "RR_Lightdistance"
+				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4533,88 +4315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 33.02 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca2399e5-f336-4ee4-a2d0-517ba44ca79d")
-		(property "Reference" "C5"
-			(at 30.226 23.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 30.226 26.416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.9852 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f29b3474-342c-45fd-bdd3-d44af8cfe75e")
-		)
-		(pin "1"
-			(uuid "bce7ce97-7028-4faf-b8ea-8e132fa3bf80")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(lib_id "Amplifier_Operational:MCP6004")
 		(at 87.63 127 0)
 		(mirror x)
 		(unit 2)
@@ -4624,8 +4325,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dd3d12b9-461f-4dd3-9bb4-d8f9f0552e78")
-		(property "Reference" "U1"
+		(uuid "d5001944-221b-49f8-a7a6-f9637ef22eee")
+		(property "Reference" "U6"
 			(at 87.63 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4635,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "MCP6004"
 			(at 87.63 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,8 +4346,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 87.63 127 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 86.36 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,6 +4358,17 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 88.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
 			(at 87.63 127 0)
 			(hide yes)
 			(show_name no)
@@ -4667,46 +4379,169 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 87.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "12"
+			(uuid "5a68b2c5-ddfa-4bb8-82d6-97a937905126")
 		)
-		(pin "8"
-			(uuid "dce388bd-c970-40e6-9931-82ad7341187d")
+		(pin "9"
+			(uuid "44259811-8d04-48f3-b951-7482517a854c")
 		)
-		(pin "6"
-			(uuid "371fdb85-b32f-4491-9c5b-23505fa4cb0a")
+		(pin "13"
+			(uuid "903cd07c-5516-4241-a5bf-29ec631d0da4")
 		)
-		(pin "7"
-			(uuid "716b070d-84ff-4564-8db6-eba3955a987a")
+		(pin "10"
+			(uuid "8a45ecb5-733f-4e99-8cfd-84244aa26d6d")
 		)
-		(pin "2"
-			(uuid "f1a78eff-e138-43fc-b08f-e7b6e6331c16")
+		(pin "14"
+			(uuid "6eff9733-1f64-42d2-8863-c7f2e81b1df4")
 		)
 		(pin "4"
-			(uuid "17cd6346-6796-4a5f-a9a2-4389a4a5a5ad")
+			(uuid "abb226e7-0613-4dda-add5-d14313589140")
 		)
-		(pin "5"
-			(uuid "70bcb78d-e577-4a92-88c4-04fff2cc8adc")
+		(pin "11"
+			(uuid "6e3e4803-6a7b-4c67-b5ac-28988a4c3a85")
 		)
 		(pin "1"
-			(uuid "94510207-4454-42c5-83a9-6b4b2755c17b")
+			(uuid "d5237b49-4b2b-4a72-86df-d4e27e658f07")
+		)
+		(pin "2"
+			(uuid "094f35ce-e6d2-4771-bf6a-fcebcbc18d09")
 		)
 		(pin "3"
-			(uuid "86911ec0-0010-45aa-ab7e-17c09e28f4c9")
+			(uuid "33685204-3317-4c8e-9163-a6e8b86edd5b")
+		)
+		(pin "7"
+			(uuid "f3ae40c7-9169-414f-ba09-9f7c869311c4")
+		)
+		(pin "8"
+			(uuid "b660c0ba-e171-471a-b3b0-292957a314cf")
+		)
+		(pin "6"
+			(uuid "22f40013-1197-42a8-9e6a-0605e8347034")
+		)
+		(pin "5"
+			(uuid "b346dfa9-e401-4168-9110-e61df921f9b2")
 		)
 		(instances
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U1")
+					(reference "U6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 86.36 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5d2f8a6-361c-4ab9-b156-115fca985899")
+		(property "Reference" "U6"
+			(at 86.36 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6004"
+			(at 86.36 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 85.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 87.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 86.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "5a68b2c5-ddfa-4bb8-82d6-97a937905126")
+		)
+		(pin "9"
+			(uuid "44259811-8d04-48f3-b951-7482517a854c")
+		)
+		(pin "13"
+			(uuid "903cd07c-5516-4241-a5bf-29ec631d0da4")
+		)
+		(pin "10"
+			(uuid "8a45ecb5-733f-4e99-8cfd-84244aa26d6d")
+		)
+		(pin "14"
+			(uuid "6eff9733-1f64-42d2-8863-c7f2e81b1df4")
+		)
+		(pin "4"
+			(uuid "abb226e7-0613-4dda-add5-d14313589140")
+		)
+		(pin "11"
+			(uuid "6e3e4803-6a7b-4c67-b5ac-28988a4c3a85")
+		)
+		(pin "1"
+			(uuid "af20b263-ba1f-4097-8b5f-97085af4f908")
+		)
+		(pin "2"
+			(uuid "1620691b-d2b0-42e6-9d69-9bbb987af43d")
+		)
+		(pin "3"
+			(uuid "8d6af09c-b5d7-4b43-bf28-365326b92edf")
+		)
+		(pin "7"
+			(uuid "462e1117-dfc4-406f-8b45-58b28b2a60ca")
+		)
+		(pin "8"
+			(uuid "b660c0ba-e171-471a-b3b0-292957a314cf")
+		)
+		(pin "6"
+			(uuid "537e6726-130b-42fc-b292-7fac0f36025e")
+		)
+		(pin "5"
+			(uuid "3b4f5e86-f4ff-40a7-bac2-609af0fe1232")
+		)
+		(instances
+			(project "RR_Lightdistance"
+				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
+					(reference "U6")
+					(unit 1)
 				)
 			)
 		)
@@ -4793,8 +4628,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 44.45 35.56 0)
+		(lib_id "Amplifier_Operational:MCP6004")
+		(at 121.92 129.54 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4803,31 +4638,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e30d7df1-ffe9-4f43-be86-746512a3ec23")
-		(property "Reference" "U2"
-			(at 43.18 34.2899 0)
+		(uuid "f18773d5-3603-42a2-9d93-45c6b1b90fae")
+		(property "Reference" "U6"
+			(at 121.92 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-xP"
-			(at 43.18 36.8299 0)
+		(property "Value" "MCP6004"
+			(at 121.92 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 44.45 35.56 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +4671,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 44.45 35.56 0)
+			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,8 +4681,8 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 44.45 35.56 0)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,34 +4692,52 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "f92e88e4-9ad4-4839-a30d-279ab2da2764")
+		(pin "12"
+			(uuid "5a68b2c5-ddfa-4bb8-82d6-97a937905126")
+		)
+		(pin "9"
+			(uuid "477ed931-fed2-41f7-a004-06862c32e42f")
+		)
+		(pin "13"
+			(uuid "903cd07c-5516-4241-a5bf-29ec631d0da4")
+		)
+		(pin "10"
+			(uuid "0648f5b2-17da-4821-a423-37d1af5a05a1")
+		)
+		(pin "14"
+			(uuid "6eff9733-1f64-42d2-8863-c7f2e81b1df4")
 		)
 		(pin "4"
-			(uuid "c32c807b-745a-476f-bc2f-dc9dacd7a247")
+			(uuid "abb226e7-0613-4dda-add5-d14313589140")
 		)
-		(pin "8"
-			(uuid "c6eeeb13-2b9c-443d-a3f2-74136c542232")
-		)
-		(pin "2"
-			(uuid "6c9afb4f-86df-4d5f-acfb-4f3de3f56f3e")
-		)
-		(pin "6"
-			(uuid "b035b714-6ae6-4c24-8693-4dc112d09c3e")
-		)
-		(pin "5"
-			(uuid "b43e133f-1c1c-4059-aeac-9fda92ac5c94")
+		(pin "11"
+			(uuid "6e3e4803-6a7b-4c67-b5ac-28988a4c3a85")
 		)
 		(pin "1"
-			(uuid "ad4a994e-f3b6-476e-9a5b-5c8b1cb11737")
+			(uuid "d5237b49-4b2b-4a72-86df-d4e27e658f07")
+		)
+		(pin "2"
+			(uuid "094f35ce-e6d2-4771-bf6a-fcebcbc18d09")
 		)
 		(pin "3"
-			(uuid "db072552-9e92-4bff-99d8-c95e0f4723e1")
+			(uuid "33685204-3317-4c8e-9163-a6e8b86edd5b")
+		)
+		(pin "7"
+			(uuid "462e1117-dfc4-406f-8b45-58b28b2a60ca")
+		)
+		(pin "8"
+			(uuid "f8cfddc8-6e61-421e-8bc6-c9ce6a56e976")
+		)
+		(pin "6"
+			(uuid "537e6726-130b-42fc-b292-7fac0f36025e")
+		)
+		(pin "5"
+			(uuid "3b4f5e86-f4ff-40a7-bac2-609af0fe1232")
 		)
 		(instances
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/d08bfd23-f594-4304-b63a-740f760396c8"
-					(reference "U2")
+					(reference "U6")
 					(unit 3)
 				)
 			)

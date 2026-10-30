@@ -12,6 +12,12 @@
 		(uuid "4dc34139-5ec1-495d-ae4a-3a0643a5f849")
 	)
 	(junction
+		(at 66.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b784c978-d045-426d-a4a2-639c430f832f")
+	)
+	(junction
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26,6 +32,16 @@
 			(type default)
 		)
 		(uuid "07a64603-5356-4751-9cb5-7fc9807d53aa")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 66.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac8c897-07bc-4aec-bb9c-3830e92ab1f7")
 	)
 	(wire
 		(pts
@@ -46,26 +62,6 @@
 			(type default)
 		)
 		(uuid "1c598358-99a2-476f-b458-7fdbb8bc512f")
-	)
-	(wire
-		(pts
-			(xy 46.99 80.01) (xy 46.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2585762d-6a79-4570-9294-3e2cc21f946b")
-	)
-	(wire
-		(pts
-			(xy 39.37 64.77) (xy 39.37 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29243d47-cb43-4bc5-ab48-2022e922aa80")
 	)
 	(wire
 		(pts
@@ -119,7 +115,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 99.06 35.56)
+			(xy 66.04 35.56) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dad493-ea81-43b2-b3bf-466376da4a7b")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 66.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -146,16 +152,6 @@
 			(type default)
 		)
 		(uuid "98a1401c-68b6-454d-9289-fe3240ed0aec")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 128.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae1530f-6f8e-48bf-9e04-af2bc896df02")
 	)
 	(wire
 		(pts
@@ -196,6 +192,16 @@
 			(type default)
 		)
 		(uuid "b0fc07e5-a703-4749-b689-bb5eb8ab34e7")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d8ceb6-49ed-4eae-bc80-4bfa44499e62")
 	)
 	(wire
 		(pts
@@ -266,16 +272,6 @@
 			(type default)
 		)
 		(uuid "d6d177e8-b395-460b-aac1-924a71f0e3cb")
-	)
-	(wire
-		(pts
-			(xy 46.99 80.01) (xy 128.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb4384ea-0841-4b36-95aa-bf55ea967f57")
 	)
 	(wire
 		(pts
@@ -393,16 +389,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "BOOST_EN" output
-			(at 128.27 83.82 90)
-			(uuid "debd8b70-3e52-49b4-a7a1-9b0ac393d1f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "3V3_ANA" input
@@ -529,26 +515,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "5V_LASER" output
-			(at 39.37 64.77 270)
-			(uuid "e5dbacfa-517b-4f7f-8937-d370ea72d422")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BOOST_EN" input
-			(at 46.99 64.77 270)
-			(uuid "8eea76bd-5d50-45ed-8a27-6ae493986ccf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -693,9 +659,9 @@
 				(justify right)
 			)
 		)
-		(pin "5V_LASER" input
-			(at 39.37 83.82 90)
-			(uuid "a7c815aa-0e3c-4544-bf8c-0de67be61c21")
+		(pin "3V_DIG" input
+			(at 55.88 83.82 90)
+			(uuid "5ee221f8-68b8-4205-9eec-c1847e5d87de")
 			(effects
 				(font
 					(size 1.27 1.27)

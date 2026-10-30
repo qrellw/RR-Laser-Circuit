@@ -1351,12 +1351,6 @@
 		(color 0 0 0 0)
 		(uuid "b9d0894f-f389-4350-835d-02a93ee5ef58")
 	)
-	(junction
-		(at 68.58 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bccbbe83-5f91-4d08-a6af-d612eff9defa")
-	)
 	(no_connect
 		(at 76.2 52.07)
 		(uuid "06321ea0-8c7a-4c84-979c-d8c0d9760989")
@@ -1380,6 +1374,10 @@
 	(no_connect
 		(at 76.2 49.53)
 		(uuid "7cff7340-f9d5-4941-80f0-e028558688cb")
+	)
+	(no_connect
+		(at 76.2 46.99)
+		(uuid "989846c3-3843-4810-bd82-18381681d3d6")
 	)
 	(no_connect
 		(at 76.2 57.15)
@@ -1418,16 +1416,6 @@
 			(type default)
 		)
 		(uuid "1e2c76a1-d826-41a2-870c-b964db7d4963")
-	)
-	(wire
-		(pts
-			(xy 68.58 46.99) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38798d30-3273-499f-abad-c3bde8acb830")
 	)
 	(wire
 		(pts
@@ -1498,16 +1486,6 @@
 			(type default)
 		)
 		(uuid "9683b8bc-5017-4da7-ba2c-7ac36b3613f1")
-	)
-	(wire
-		(pts
-			(xy 68.58 46.99) (xy 62.23 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3175f8c-87fb-42b2-91f1-9c75c26097b9")
 	)
 	(wire
 		(pts
@@ -1604,17 +1582,6 @@
 		)
 		(uuid "31b018cc-eec8-4954-93f3-06eaa4c23648")
 	)
-	(hierarchical_label "BOOST_EN"
-		(shape output)
-		(at 62.23 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4beb65f7-c1a8-4577-83da-5742b794a8e4")
-	)
 	(hierarchical_label "GND_DIG"
 		(shape passive)
 		(at 49.53 85.09 0)
@@ -1691,17 +1658,6 @@
 			(justify right)
 		)
 		(uuid "b9a806af-cceb-4fd9-abe4-f040bbfe0260")
-	)
-	(hierarchical_label "GND_DIG"
-		(shape passive)
-		(at 68.58 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb2ea43b-a649-4c0f-8b94-6f9569d3901c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2293,87 +2249,6 @@
 			(project "RR_Lightdistance"
 				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/66b5f731-23bf-4488-a76d-6c2119f1b453"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9e9f992-b578-4dd5-88e7-9b1317ec01e3")
-		(property "Reference" "C20"
-			(at 63.754 48.768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 63.246 52.832 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.5452 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3dd1f995-77b0-4e00-9057-907b9d73ef2f")
-		)
-		(pin "1"
-			(uuid "432e3272-96b4-48a5-abaa-dbcec03f9035")
-		)
-		(instances
-			(project "RR_Lightdistance"
-				(path "/29467ab3-c1bf-4fb3-96d7-e47c1d2d2674/66b5f731-23bf-4488-a76d-6c2119f1b453"
-					(reference "C20")
 					(unit 1)
 				)
 			)
