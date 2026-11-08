@@ -1,0 +1,28 @@
+ ,Qty,Value,Footprint,
+J3,1,,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,SH1.0MM JST 1mm B? k?t n?i cáp JST Nam Header 3P-12P v?i 28AWG U?n v?i thi?t b? ??u cu?i cho GPS Racing Drone Wire | Shopee Vi?t Nam
+R18,1,0,Resistor_SMD:R_0805_2012Metric,10 cái ?i?n tr? dán SMD 0805 0R 0R0 0ohm | Shopee Vi?t Nam
+"C4,C6,C14,C21,C24",5,100n,Capacitor_SMD:C_0603_1608Metric,::.T? dán 0603 104-100nF 0.1uF 50V 10% (10 chi?c).::
+"C1,C2",2,470n,Capacitor_SMD:C_0603_1608Metric,::.T? dán 0603 474-470nF 0.47uF 50V 10% (10c).::
+"C11,C17,C19",3,1u,Capacitor_SMD:C_0603_1608Metric,::.T? dán 0603 105-1uF 25V 10% (10c).::
+"C8,C9",2,2.2u,Capacitor_SMD:C_0603_1608Metric,::.T? dán 0603 225-2.2uF 16V 10% (10c).::
+"C3,C7,C15,C16,C18",5,10u,Capacitor_SMD:C_0805_2012Metric,
+C12,1,47u,Capacitor_SMD:C_0805_2012Metric,::.T? dán 0805 475-4.7uF 4700nF 25V 10% (10c).::
+R11,1,10R,Resistor_SMD:R_0603_1608Metric,::.?i?n tr? dán 0603 10R 1% 01X (50c).::
+R20,1,47R,Resistor_SMD:R_0603_1608Metric,::.?i?n tr? dán 0603 47R 1% (50c).::
+"R10,R17",2,1k,Resistor_SMD:R_0603_1608Metric,::.?i?n tr? dán 0603 1K 1% 01B (50c).::
+R3,1,2k,Resistor_SMD:R_0603_1608Metric,
+"R5,R6,R7,R8",4,4.7k,Resistor_SMD:R_0603_1608Metric,
+"R1,R2,R9",3,10k,Resistor_SMD:R_0603_1608Metric,
+R4,1,27k,Resistor_SMD:R_0603_1608Metric,::.?i?n tr? dán 0603 27K 1% (50c).::
+"R14,R15,R16",3,100k,Resistor_SMD:R_0603_1608Metric,::.?i?n tr? dán 0603 100K 1% 01D (50c).::
+Q1,1,2N7002,Package_TO_SOT_SMD:SOT-23,
+U3,1,ADS1115IDGS,Package_SO:TSSOP-10_3x3mm_P0.5mm,
+U5,1,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,
+"D1,D2",2,BPW34,OptoDevice:Osram_BPW34S-SMD,
+"analog1,analog2",2,Conn_01x04,Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,
+U8,1,ESP32-C3_SUPERMINI_TH,ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI_TH,
+J1,1,Laser,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,
+"D4,D5",2,LED,LED_SMD:LED_0805_2012Metric,
+U6,1,MCP6004,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,
+U7,1,MCP1700x-330xxTT,Package_TO_SOT_SMD:SOT-23,
+U4,1,TP4056,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,
